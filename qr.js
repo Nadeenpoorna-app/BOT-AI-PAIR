@@ -13,30 +13,25 @@ const fs = require("fs-extra");
 const { Boom } = require("@hapi/boom");
 
 const MESSAGE = process.env.MESSAGE ||  `
-*SESSION GENERATED SUCCESSFULY* ✅
+🚀 *𝗦𝗘𝗦𝗦𝗜𝗢𝗡 𝗚𝗘𝗡𝗘𝗥𝗔𝗧𝗘𝗗 𝗦𝗨𝗖𝗖𝗘𝗦𝗦𝗙𝗨𝗟𝗬* ✅
 
-*Gɪᴠᴇ ᴀ ꜱᴛᴀʀ ᴛᴏ ʀᴇᴘᴏ ꜰᴏʀ ᴄᴏᴜʀᴀɢᴇ* 🌟
-https://github.com/Tohidkhan6332/TOHID-AI
+> 🚫ᴅᴏɴ'ᴛ ꜱʜᴀʀᴇ ᴛʜɪꜱ ᴄᴏᴅᴇ ᴡɪᴛʜ ᴀɴʏᴏɴᴇ!!!
 
-*Tᴇʟᴇɢʀᴀᴍ Gʀᴏᴜᴘ* 🌟
-https://t.me/Tohid_Tech
+✨ *Gɪᴠᴇ ᴀ Sᴛᴀʀ ᴛᴏ Rᴇᴘᴏ Fᴏʀ Cᴏᴜʀᴀɢᴇ* 🌟
+https://github.com/Nadeenpoorna-app/NADEEN-MD
 
-*WʜᴀᴛsAᴘᴘ Gʀᴏᴜᴘ* 🌟
-https://chat.whatsapp.com/IqRWSp7pXx8DIMtSgDICGu
+🪀 *Fᴏʟʟᴏᴡ Wʜᴀᴛꜱᴀᴘᴘ Cʜᴀɴɴᴇʟ* 🪀
+https://whatsapp.com/channel/0029VagN2qW3gvWUBhsjcn3I
 
-*WʜᴀᴛsAᴘᴘ ᴄʜᴇɴɴᴀʟ* 🌟
-https://whatsapp.com/channel/0029VaGyP933bbVC7G0x0i2T
+👨🏻‍💻 *Cᴏɴᴛᴀᴄᴛ Oᴡɴᴇʀ* 👨🏻‍💻
+https://wa.me/94711451319
 
-*Yᴏᴜ-ᴛᴜʙᴇ ᴛᴜᴛᴏʀɪᴀʟꜱ* 🌟 
-https://youtube.com/Tohidkhan_6332
+🎥 *Yᴏᴜ-ᴛᴜʙᴇ ᴛᴜᴛᴏʀɪᴀʟꜱ* 💻
+https://youtube.com/@NADEEN-MD
 
-*ɢɪᴛʜᴜʙ* 🌟
-http://GitHub.com/Tohidkhan6332
+> ▄︻デռǟɖɛɛռ-ʍɖ══━一
 
-*Wᴇʙsɪᴛᴇ* 🌟
-https://tohid-khan-web.vercel.app/
-
-*TOHID-Ai--WHATTSAPP-BOT* 🥀
+🎯 *Nα∂єєη м∂ ву Nα∂єєη Pσσяηα* 🎯
 `
 
 
@@ -181,7 +176,7 @@ if (fs.existsSync('./auth_info_baileys')) {
 
 
 
-                        const string_session = mega_url.replace('https://mega.nz/file/', '');
+                        const string_session = mega_url.replace('https://mega.nz/file/', '𝙽𝙰𝙳𝙴𝙴𝙽-𝙼𝙳=');
 
 
 
@@ -259,7 +254,7 @@ SESSION-ID ==> ${Scan_Id}
 
               await delay(5000);
 
-              exec('pm2 restart tohid');
+              exec('pm2 restart qasim');
 
               process.exit(0)
 
@@ -279,7 +274,7 @@ SESSION-ID ==> ${Scan_Id}
 
         console.log(err);
 
-        exec('pm2 restart tohid');
+        exec('pm2 restart qasim');
 
        await fs.emptyDirSync(__dirname+'/auth_info_baileys'); 
 
@@ -295,7 +290,7 @@ SESSION-ID ==> ${Scan_Id}
 
     await fs.emptyDirSync(__dirname+'/auth_info_baileys'); 
 
-    exec('pm2 restart tohid');
+    exec('pm2 restart qasim');
 
 
 
